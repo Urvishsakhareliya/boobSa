@@ -27,7 +27,7 @@
   }
 
   /* -------- 04.  Index -------- */
-  
+
   .Categories-ul {
     grid-gap: 50px;
   }
@@ -40,6 +40,10 @@
     right: 16rem;
   }
 
+  .hero-add .Add-slider .item .item_Content {
+    right: 20%;
+  }
+
   /* New Creation  */
   .product_Ul {
     gap: 10rem;
@@ -49,13 +53,13 @@
     height: 45rem;
   }
 
-/* -------- 05.  Sign UP & Sign in -------- */
+  /* -------- 05.  Sign UP & Sign in -------- */
   .signUp_back {
     height: calc(100vh - 80px);
   }
 
-/* -------- 06.  Top Seller -------- */
- 
+  /* -------- 06.  Top Seller -------- */
+
   .arrivalSec,
   .back-arrow {
     padding: 0 8rem;
@@ -73,7 +77,7 @@
     height: 35rem;
   }
 
- /* -------- 07.  Wish List -------- */
+  /* -------- 07.  Wish List -------- */
   .productDetails .information_Reviews .product_Info h2,
   .productDetails .information_Reviews .pro_reviews h2 {
     font-size: 4.2rem !important;
@@ -87,7 +91,7 @@
     height: 35rem;
   }
 
-/* -------- 10.  Footer -------- */
+  /* -------- 10.  Footer -------- */
   footer {
     padding: 4rem 8rem;
   }
@@ -126,7 +130,28 @@
 
   .Categories .design-right {
     right: 14rem;
-  } 
+  }
+
+
+  .hero-add .Add-slider .item .item_Content {
+    right: 22%;
+  }
+
+  .hero-add .Add-slider .item_Content .Special_text {
+    font-size: 4.8rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride {
+    font-size: 3rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride span {
+    font-size: 4rem;
+  }
+
+  .hero-add .Add-slider .item_Content .quick-View {
+    font-size: 2.2rem;
+  }
 
   .product_Ul {
     gap: 10rem;
@@ -135,7 +160,7 @@
   .product_Ul .product_Image {
     height: 43rem;
   }
-  
+
   .promise-ul {
     grid-gap: 6rem;
   }
@@ -144,12 +169,12 @@
     grid-template-columns: 17rem auto;
   }
 
-/* -------- 05.  Sign UP & Sign in -------- */
+  /* -------- 05.  Sign UP & Sign in -------- */
   .signUp_back {
     height: calc(100vh - 80px);
   }
 
-/* -------- 06.  Top Seller -------- */
+  /* -------- 06.  Top Seller -------- */
   .arrivalSec,
   .back-arrow {
     padding: 0 6rem;
@@ -167,7 +192,7 @@
     height: 35rem;
   }
 
-  /* -------- 07.  Wish List -------- */ 
+  /* -------- 07.  Wish List -------- */
   .productDetails .information_Reviews .product_Info h2,
   .productDetails .information_Reviews .pro_reviews h2 {
     font-size: 4rem !important;
@@ -214,7 +239,7 @@
 
   }
 
-   /* -------- 04.  Index -------- */
+  /* -------- 04.  Index -------- */
   .Categories-ul {
     grid-gap: 40px;
   }
@@ -241,7 +266,29 @@
   .Categories .design-right {
     max-height: 13rem;
   }
- 
+
+
+  .hero-add .Add-slider .item .item_Content {
+    right: 20%;
+  }
+
+  .hero-add .Add-slider .item_Content .Special_text {
+    font-size: 4.2rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride {
+    font-size: 2.8rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride span {
+    font-size: 3.8rem;
+  }
+
+  .hero-add .Add-slider .item_Content .quick-View {
+    font-size: 2rem;
+  }
+
+
   .product_Ul {
     gap: 8rem;
   }
@@ -249,7 +296,7 @@
   .product_Ul .product_Image {
     height: 40rem;
   }
- 
+
   .promise-ul {
     grid-gap: 4rem;
   }
@@ -257,11 +304,11 @@
   .promise-text {
     margin-top: 2rem;
   }
- 
+
   .quickView_cont h2 {
     font-size: 7rem !important;
   }
- 
+
   .review_slider .item {
     grid-template-columns: 15rem auto;
   }
@@ -284,7 +331,7 @@
     height: calc(100vh - 70px);
   }
 
-/* -------- 06.  Top Seller -------- */
+  /* -------- 06.  Top Seller -------- */
   .arrivalSec,
   .back-arrow {
     padding: 0 4rem;
@@ -303,7 +350,7 @@
     height: 30rem;
   }
 
- /* -------- 07.  Wish List -------- */
+  /* -------- 07.  Wish List -------- */
   .productDetails .product_view .main_image {
     height: 45rem;
     width: 40rem;
@@ -438,6 +485,26 @@
     padding: 3rem 0;
   }
 
+  .hero-add .Add-slider .item .item_Content {
+    right: 20%;
+  }
+
+  .hero-add .Add-slider .item_Content .Special_text {
+    font-size: 3.8rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride {
+    font-size: 2.5rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride span {
+    font-size: 3.5rem;
+  }
+
+  .hero-add .Add-slider .item_Content .quick-View {
+    font-size: 1.8rem;
+  }
+
   .product_Ul {
     gap: 4rem;
   }
@@ -490,7 +557,7 @@
     height: calc(100vh - 60px);
   }
 
-/* -------- 06.  Top Seller -------- */
+  /* -------- 06.  Top Seller -------- */
   .arrivalSec,
   .back-arrow {
     padding: 0 2rem;
@@ -513,7 +580,7 @@
     grid-template-columns: auto 70px;
   }
 
- /* -------- 07.  Wish List -------- */
+  /* -------- 07.  Wish List -------- */
   .productDetails .product_view .main_image {
     height: 45rem;
     width: 40rem;
@@ -550,7 +617,7 @@
     grid-template-columns: auto 70px;
   }
 
-/* -------- 08.  Cart -------- */
+  /* -------- 08.  Cart -------- */
   .cart_imges {
     height: 240px;
     width: 200px;
@@ -565,12 +632,12 @@
   }
 
 
-/* -------- 09.  PayMent -------- */
+  /* -------- 09.  PayMent -------- */
   .Contact_section {
     max-width: 90%;
   }
 
- /* -------- 10.  Footer -------- */
+  /* -------- 10.  Footer -------- */
   footer {
     padding: 4rem 2rem;
   }
@@ -713,6 +780,7 @@
     align-items: center;
     justify-content: end;
   }
+
   /* -------- 04.  Index -------- */
   .Categories-group {
     padding: 0 8rem;
@@ -736,7 +804,7 @@
 
   .Categories-tag {
     white-space: nowrap;
-  } 
+  }
 
   .images-border {
     height: 9rem;
@@ -752,7 +820,7 @@
   .Categories {
     padding: 2rem 0;
   }
- 
+
   .promise-item .box .image_box {
     height: 6rem;
     width: 6rem;
@@ -787,7 +855,7 @@
     min-height: 450px;
   }
 
-/* -------- 06.  Top Seller -------- */
+  /* -------- 06.  Top Seller -------- */
   .arrivalSec {
     margin-top: 2rem;
   }
@@ -795,11 +863,11 @@
   .arrivalSec .product_list {
     gap: 2rem;
   }
- 
+
   .arrivalSec .productItem .product_cont {
     grid-template-columns: auto 70px;
   }
- 
+
   .arrivalAccordion {
     position: absolute;
     visibility: hidden;
@@ -838,8 +906,8 @@
     z-index: 101;
 
   }
- 
- /* -------- 07.  Wish List -------- */
+
+  /* -------- 07.  Wish List -------- */
   .productDetails .information_Reviews {
     margin-top: 4rem;
     grid-template-columns: inherit;
@@ -864,7 +932,7 @@
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
   }
- 
+
   .productDetails .productItem .product_cont {
     grid-template-columns: auto 70px;
   }
@@ -875,7 +943,30 @@
   .containerX {
     margin: 0 6rem;
   }
+
   /* -------- 04.  Index -------- */
+
+  .hero-add .Add-slider .item .item_Content {
+    right: 19%;
+  }
+
+  .hero-add .Add-slider .item_Content .Special_text {
+    font-size: 3.2rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride {
+    font-size: 2.2rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride span {
+    font-size: 3.2rem;
+  }
+
+  .hero-add .Add-slider .item_Content .quick-View {
+    font-size: 1.8rem;
+    padding: 5px 20px;
+  }
+
   .promise-ul {
     grid-gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
@@ -885,7 +976,7 @@
     margin-top: 1rem;
     font-size: 2.2rem;
   }
- 
+
   .quickView_cont .quickView_btn {
     padding: 0.5rem 1.5rem;
   }
@@ -893,7 +984,7 @@
   .quickView_cont h2 {
     font-size: 6rem !important;
   }
- 
+
   .review_slider {
     padding: 2rem;
   }
@@ -920,7 +1011,7 @@
     width: 7rem;
     height: 7rem;
   }
-  
+
   .product_Ul {
     gap: 6rem;
   }
@@ -935,12 +1026,12 @@
   }
 
 
-/* -------- 06.  Top Seller -------- */
+  /* -------- 06.  Top Seller -------- */
   .arrivalSec .productItem .pro_Image {
     height: 35rem;
   }
 
- /* -------- 07.  Wish List -------- */
+  /* -------- 07.  Wish List -------- */
   .productDetails .product_view .main_image {
     height: 38rem;
     width: 32rem;
@@ -969,8 +1060,8 @@
   .productDetails .productItem .pro_Image {
     height: 35rem;
   }
-  
-/* -------- 08.  Cart -------- */
+
+  /* -------- 08.  Cart -------- */
   .cart_imges {
     height: 240px;
     width: 200px;
@@ -988,7 +1079,7 @@
     max-width: 580px;
   }
 
- /* -------- 09.  PayMent -------- */
+  /* -------- 09.  PayMent -------- */
   .Contact_section {
     margin-bottom: 3rem;
   }
@@ -1023,7 +1114,7 @@
     padding: 0;
   }
 
- /* -------- 07.  Wish List -------- */
+  /* -------- 07.  Wish List -------- */
   .productDetails .product_view {
     margin-bottom: 2rem;
   }
@@ -1031,7 +1122,8 @@
   .productDetails .productItem .pro_Image .like_pro {
     padding: 0;
   }
-  .wishList .product_Ul .delete{
+
+  .wishList .product_Ul .delete {
     padding: 8px;
   }
 }
@@ -1046,6 +1138,26 @@
   }
 
   /* -------- 04.  Index -------- */
+  .hero-add .Add-slider .item .item_Content {
+    right: 19%;
+  }
+
+  .hero-add .Add-slider .item_Content .Special_text {
+    font-size: 2.8rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride {
+    font-size: 2rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride span {
+    font-size: 3rem;
+  }
+
+  .hero-add .Add-slider .item_Content .quick-View {
+    font-size: 1.8rem;
+    padding: 5px 20px;
+  }
   .product_Ul {
     display: flex !important;
     gap: 3rem;
@@ -1065,7 +1177,7 @@
     height: 6rem;
     width: 6rem;
   }
-  
+
   .review_slider {
     padding: 2rem;
   }
@@ -1090,7 +1202,7 @@
     width: 7rem;
     height: 7rem;
   }
-  
+
   .promise-ul {
     grid-gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
@@ -1116,7 +1228,7 @@
 
   }
 
-/* -------- 06.  Top Seller -------- */
+  /* -------- 06.  Top Seller -------- */
   .arrivalSec .productItem .pro_Image {
     height: 30rem;
     overflow: hidden;
@@ -1130,7 +1242,7 @@
     padding: 2px 0;
   }
 
- /* -------- 07.  Wish List -------- */
+  /* -------- 07.  Wish List -------- */
   .productDetails .product_view .main_image {
     height: 45rem;
     width: 40rem;
@@ -1154,7 +1266,7 @@
     padding: 2px 0;
   }
 
- /* -------- 08.  Cart -------- */
+  /* -------- 08.  Cart -------- */
   .cart_imges {
     height: 200px;
     width: 170px;
@@ -1171,7 +1283,8 @@
   .Cart_Right_section {
     max-width: 100%;
   }
-/* -------- 09.  PayMent -------- */
+
+  /* -------- 09.  PayMent -------- */
   .Contact_section {
     margin-bottom: 3rem;
   }
@@ -1200,7 +1313,29 @@
     background-position: 97% 5px;
     padding: 0 3rem 0 1.8rem;
   }
+
   /* -------- 04.  Index -------- */
+  .hero-add .Add-slider .item .item_Content {
+    right: 19%;
+  }
+
+  .hero-add .Add-slider .item_Content .Special_text {
+    font-size: 2.2rem;
+    line-height: 15px;
+  }
+
+  .hero-add .Add-slider .item_Content .bride {
+    font-size: 1.8rem;
+  }
+
+  .hero-add .Add-slider .item_Content .bride span {
+    font-size: 2.5rem;
+  }
+
+  .hero-add .Add-slider .item_Content .quick-View {
+    font-size: 1.6rem;
+    padding: 2px 10px;
+  }
   .product_Ul {
     display: flex !important;
     gap: 3rem;
@@ -1215,7 +1350,7 @@
   .product_Ul .product_Image {
     height: 250px;
   }
- 
+
   .quickView_cont h2 {
     font-size: 4rem !important;
   }
@@ -1257,7 +1392,7 @@
     margin: 0 auto 1rem auto;
 
   }
- 
+
   .promise-item .box svg {
     height: 6rem;
     width: 6rem;
@@ -1329,7 +1464,7 @@
 
   }
 
-/* -------- 06.  Top Seller -------- */
+  /* -------- 06.  Top Seller -------- */
   .arrivalSec .product_list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1338,7 +1473,7 @@
     height: 40rem;
   }
 
- /* -------- 07.  Wish List -------- */
+  /* -------- 07.  Wish List -------- */
   .productDetails .product_view .main_image {
     height: 45rem;
     width: 40rem;
@@ -1366,7 +1501,7 @@
     height: 40rem;
   }
 
-/* -------- 08.  Cart -------- */
+  /* -------- 08.  Cart -------- */
   .cart_imges {
     height: 160px;
     width: 140px;
@@ -1388,14 +1523,15 @@
     max-width: 100%;
   }
 
-/* -------- 09.  PayMent -------- */
+  /* -------- 09.  PayMent -------- */
   .Contact_section {
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
   }
 }
 
 @media screen and (max-width: 450px) {
-/* -------- 06.  Top Seller -------- */
+
+  /* -------- 06.  Top Seller -------- */
   .arrivalSec .productItem .product_cont {
     grid-template-columns: auto 50px;
   }
@@ -1408,7 +1544,7 @@
     padding: 2px 0;
   }
 
- /* -------- 07.  Wish List -------- */
+  /* -------- 07.  Wish List -------- */
   .productDetails .productItem .product_cont {
     grid-template-columns: auto 50px;
   }

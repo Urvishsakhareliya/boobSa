@@ -312,6 +312,41 @@ header nav .nav-menu .dropdown-toggle::after {
 
 /* ------------- End Categories ------------- */
 
+/* ------------- Start Add Banner ------------- */
+
+.hero-add .Add-slider .item{
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-add .Add-slider .item .item_Content{
+  position: absolute;
+  bottom: 10%;
+  color: #fff; 
+  right: 23%;
+}
+.hero-add .Add-slider .item_Content .Special_text{
+  font-size: 5.2rem;
+}
+
+.hero-add .Add-slider .item_Content .bride{
+  font-size: 3.6rem;
+}
+
+.hero-add .Add-slider .item_Content .bride span{
+  font-size: 4.6rem;
+  color: var(--color-yellow);
+}
+
+.hero-add .Add-slider .item_Content .quick-View{
+  background-color: var(--color-yellow);
+  color: var(--color-primary);
+  font-size: 2.6rem;
+  padding: 1rem 2.5rem;
+}
+
+/* ------------- End Add Banner ------------- */
+
 /* ------------- Start BOOB’S New Creation ------------- */
 .sec_heading {
   height: 12rem;
