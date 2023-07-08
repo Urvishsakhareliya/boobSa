@@ -16,7 +16,7 @@
   11.  Complete
    
 --------------------------------------------------------
-*/ 
+*/
 
 /* ============================================================= 
                       01 - Fonts
@@ -314,31 +314,32 @@ header nav .nav-menu .dropdown-toggle::after {
 
 /* ------------- Start Add Banner ------------- */
 
-.hero-add .Add-slider .item{
+.hero-add .Add-slider .item {
   position: relative;
   overflow: hidden;
 }
 
-.hero-add .Add-slider .item .item_Content{
+.hero-add .Add-slider .item .item_Content {
   position: absolute;
   bottom: 10%;
-  color: #fff; 
+  color: #fff;
   right: 23%;
 }
-.hero-add .Add-slider .item_Content .Special_text{
+
+.hero-add .Add-slider .item_Content .Special_text {
   font-size: 5.2rem;
 }
 
-.hero-add .Add-slider .item_Content .bride{
+.hero-add .Add-slider .item_Content .bride {
   font-size: 3.6rem;
 }
 
-.hero-add .Add-slider .item_Content .bride span{
+.hero-add .Add-slider .item_Content .bride span {
   font-size: 4.6rem;
   color: var(--color-yellow);
 }
 
-.hero-add .Add-slider .item_Content .quick-View{
+.hero-add .Add-slider .item_Content .quick-View {
   background-color: var(--color-yellow);
   color: var(--color-primary);
   font-size: 2.6rem;
@@ -547,6 +548,7 @@ header nav .nav-menu .dropdown-toggle::after {
   color: var(--color-light);
 }
 
+.Payment_Form_items textarea:focus,
 .login_signup .form .mobNumber select,
 .login_signup .form .form-control:focus {
   box-shadow: none;
@@ -971,15 +973,16 @@ header nav .nav-menu .dropdown-toggle::after {
   transition: 0.5s;
   overflow: hidden;
   padding: 5px;
-  border: 1px solid transparent; 
+  border: 1px solid transparent;
 }
 
-.productDetails .product_view .images_Item.active{
+.productDetails .product_view .images_Item.active {
   padding: 5px;
   border: 1px solid var(--color-primary);
 }
-.productDetails .product_view .images_Item:hover{
-  border: 1px solid var(--color-primary); 
+
+.productDetails .product_view .images_Item:hover {
+  border: 1px solid var(--color-primary);
 }
 
 .productDetails .product_view .product_images {
@@ -1343,6 +1346,7 @@ header nav .nav-menu .dropdown-toggle::after {
   margin-top: 1.5rem;
 }
 
+.Payment_Form_items textarea,
 .Payment_Form_items input {
   border: 1px solid #312624;
   border-radius: 8px;
@@ -1354,6 +1358,7 @@ header nav .nav-menu .dropdown-toggle::after {
   outline: 0;
 }
 
+.Payment_Form_items textarea::placeholder,
 .Payment_Form_items input::placeholder {
   color: #80635E;
 }
@@ -1482,3 +1487,176 @@ footer {
   margin-bottom: 1rem;
 }
 
+
+/* ============================================================= 
+                        12 - TERMS & CONDITIONS
+  ============================================================= */
+.terms_items {
+  margin-bottom: 2rem;
+}
+
+.terms_ul {
+  list-style: decimal-leading-zero;
+  padding: 0 3.5rem;
+}
+
+.terms_ul h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.terms_ul .terms_declaration {
+  padding: 0 1rem;
+  list-style: square;
+}
+
+.NonReturnable {
+  list-style-type: "";
+}
+
+.NonReturnable .terms_declaration {
+  list-style: disc;
+
+}
+
+.NonReturnable h5 {
+  margin-bottom: 1rem;
+}
+
+.NonReturnable .terms_declaration {
+  padding: 0 6rem;
+
+}
+
+/* ============================================================= 
+                      13 - Contact Us
+============================================================= */
+.contact-row {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+
+.Headquarter_sec,
+.Contact_Info,
+.Order_Information {
+  padding: 1.8rem;
+  border-radius: 4px;
+  background: #d2ece6;
+}
+
+.Headquarter_heading {
+  background: #fff;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  border-radius: 4px;
+  color: #7F625D;
+  font-weight: 600;
+  font-size: 2.4rem !important;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.Headquarter_sec a {
+  display: inline-block;
+  max-width: 40%;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.ContactUs_addressdetails {
+  gap: 2rem;
+  padding: 0;
+}
+
+.Headquarter_sec p {
+  font-size: 2rem;
+}
+
+.Contact_Info-sec {
+  /* margin-top: 2rem; */
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-gap: 2rem; */
+}
+
+.Contact_Info {
+  background: #FCF0ED;
+}
+
+.Contact_Info a {
+  display: block;
+  color: var(--color-secondary);
+  margin-bottom: 0.6;
+  font-size: 2rem;
+}
+
+.Contact_socialUl {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.Contact_socialUl a {
+  display: inline-block;
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.Order_Information {
+  background: #fce0b3;
+}
+
+.Order_Information a {
+  display: block;
+  color: var(--color-secondary);
+  margin-bottom: 0.6;
+  font-size: 2rem;
+}
+
+.ContactUs_From {
+  padding: 1.8rem;
+  background: #FCF0ED;
+  border: 1px solid #312624;
+  border-radius: 8px;
+}
+
+.ContactUs .Payment_Form_items input {
+  padding: 0.4rem 1.8rem;
+  height: 100%;
+}
+
+.Payment_Form_items textarea:focus {
+  border-color: var(--color-primary);
+  background-color: transparent;
+}
+
+.ContactUs .Payment_Form_items textarea {
+  min-height: 5rem;
+  height: 100%;
+}
+
+.ContactUs .Payment_Form {
+  display: grid;
+  gap: 2rem;
+  grid-template-rows: 5rem 5rem 5rem 5rem auto 5rem;
+  height: 100%;
+}
+
+.ContactUs .Payment_Form_items {
+  margin: 0;
+}
+
+.ContactUs .Contact_Submitbtn .Continue_btn {
+  padding: 0 2.4rem;
+  margin: 0;
+  height: 5rem;
+}
+
+.shopNow {
+  padding: 1rem 2rem;
+}
